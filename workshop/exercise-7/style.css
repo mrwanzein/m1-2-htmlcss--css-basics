@@ -30,8 +30,9 @@ li{
 
 .image {
   height: 150px;
+  width: auto;
   border-radius: 5px;
-  max-width: 100%;
+  margin: 0 5px;
 }
 
 .title {
@@ -52,19 +53,16 @@ li{
   font-weight: bold;
 }
 
-.row-cute-animals {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.col-cute-animals {
+.col {
   background-color: lightgrey;
   padding: 15px;
   border: dashed 2px black;
   margin: 10px;
 }
 
-.col-cute-animals.biggest {
-  flex: 1 0 0;
+.row {
+  display: flex;
+  justify-content: flex-start;
 }
+
+
