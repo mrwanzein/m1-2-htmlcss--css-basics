@@ -23,19 +23,38 @@ body {
 
 h1,
 h2 {
+  font-weight: bold;
 }
 
 h1 {
+  text-align: center;
+  font-size: 3em;
+  padding: 20px 0;
 }
 
 h2 {
+  font-size: 1.5em;
+  padding-bottom: 15px;
 }
 
 .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
 }
 
 .col {
+  background-color: lightgray;
+  padding: 25px;
 }
 
 .image {
+  height: 195px;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  border: 2px dashed black;
 }
