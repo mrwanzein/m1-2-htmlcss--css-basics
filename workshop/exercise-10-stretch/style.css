@@ -3,5 +3,17 @@ body {
 }
 
 button {
-  /* Solve me */
+  background-color: blue;
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: aliceblue;
+  outline: none;
+  transition: padding 0.5s ease;
 }
+
+button:active {
+  padding: 12px 17px;
+  background-color: darkblue;
+}
+
+
